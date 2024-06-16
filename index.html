@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sai's Portfolio</title>
+    <link rel="website icon"  type="png"  href="portfolio imgs/SD logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="Home">
+    <div class="main">
+        <nav><div class="navbar">
+            <img src="portfolio imgs/SD logo.png" width="60px" height="40px" alt="logo">
+            <b><h3>Sri Naga Durga Sai</h3></b>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Certificates">Certificates</a></li>
+                <li><a href="#Contact me">Contact me</a></li>
+            </ul>
+        </div></nav>
+        <div class="info">
+            <img src="portfolio imgs/beach-1.jpg" alt="me" width="400px" height="400px">
+            <script></script>
+            <h3>Hi, I'm <span>Sai Dangeti</span></h3>
+            <br>
+            <h2><span>T</span>rainee, at <br> <span>C</span>yber <span>C</span>rew @<span>K</span>iet<br></h2>     
+            </div><div class="but">
+                <a href="#"><button>Resume download</button></a>
+            </div>
+            <section id="About">
+            <div class="about">
+                <h1>About</h1>
+                <br>
+                <br>
+                <h3><b>Hello !!</b></h3><br><P>I'm <b>Sri Naga Durga Sai Dangeti</b> , <br>
+                    a second-year student pursuing CYBER-SECURITY in the Department of COMPUTER SCIENCE OF ENGINEERING <br> At Kakinada Institute Of Engineering And Technology.<br>I'm passionate about technology and coding.
+                    <br>
+                </P>
+            </div>
+        </section>
+        <section id="Education">
+            <div class="edu">
+                <h1>Education</h1>
+                <br>
+                <br>
+                <P><b>Schooling</b><br>
+                    <br>
+                    I Completed my SSC with <span>90%</span> in <span>2020</span> at<br>
+                "Lakshmi Bharathi School, Ambajipeta",(Konaseema District). </P>
+                <P><b>Intermediate</b><br>
+                    <br>I Completed my Intermediate with <br><span>80%</span> in <span>2022</span> at,
+                "Aditya Junior College, Amalapuram",(Konaseema District).</P>
+                <P><b>B.tech</b><br>
+                <br>I'm pursuing my B.tech 2nd year in,
+             "Kakinada Institute Of Engineering & Technology".Korangi</P>
+            </div>
+        </section>
+        <section id="Skills">
+            <div class="sk">
+                <h1>Skills</h1>
+                <div class="skills-bars">                   
+                        <span>Communication Skills (80%)</span>
+                        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+                        <br>
+                        <span>Intermediate in 'C' (65%)</span>
+                        <div class="bar"><div class="progress" style="width: 65%;"></div></div>
+                        <br>
+                        <span>Intermediate in Python (80%)</span>
+                        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+                        <br>
+                        <span>Intermediate in HTML (75%)</span>
+                        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+                        <br>
+                        <span>Intermediate in CSS (60%)</span>
+                        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
+                        <br>
+                        <span>Basics in JAVA (45%)</span>
+                        <div class="bar"><div class="progress" style="width: 45%;"></div></div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="Certificates">
+            <div class="cert">
+                <h1>Certificates</h1>
+                <br>
+                <br>
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <a href="portfolio imgs/AICTE B2 intern.jpg"><img src="portfolio imgs/AICTE B2 intern.jpg" alt="HTML BY Udemy"></a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="portfolio imgs/TCS.jpg"><img src="portfolio imgs/TCS.jpg" alt="Tcs-Ion Certificate"></a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="portfolio imgs/Python by Edyst.jpg"><img src="portfolio imgs/Python by Edyst.jpg" alt="Python by EDYST"></a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="portfolio imgs/IBM.jpg"><img src="portfolio imgs/IBM.jpg" alt="IBM certificate"></a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="portfolio imgs/HTML by Udemy.jpg"><img src="portfolio imgs/HTML by Udemy.jpg" alt="HTML BY Udemy"></a>
+                    </div>
+                    <div class="mySlides">
+                        <a href="portfolio imgs/Password Generator Using Python_-Sri Naga Durga Sai Dangeti-Edyst.png"><img src="portfolio imgs/Password Generator Using Python_-Sri Naga Durga Sai Dangeti-Edyst.png" alt="HTML BY Udemy"></a>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+            </div>
+        </section>  
+    <script>
+     let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+        showSlides((slideIndex += n));
+    }
+    
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    } 
+    </script>
+    <br>
+    <br>
+            <section id="Contact me">
+            <div class="contact">
+                <h1>Contact me</h1>
+                <br>
+                <br>
+                <P>Feel free to Contact me On Social media</P>  
+                <br>
+                <br>
+                <div class="logos">
+                    <a href="mailto:saidangeti2005@gmail.com"><img src="portfolio imgs/Gmail-.logo.png" alt="Mail" width="28px" height="30px"></a>
+                    <a href="https://www.instagram.com/sai_.dangeti/"><img src="portfolio imgs/insta logo.png" alt="IG" width="30px" height="30px" ></a>
+                    <a href="https://github.com/saidangeti39"><img src="portfolio imgs/github-logo.png" alt="GT" width="35px" height="32px"></a>
+                    <a href="https://wa.me/qr/WDY5VUH6YDNCO1"><img src="portfolio imgs/whatsapp .logo.png" alt="WA" width="35px" height="32px"></a>
+                    <a href="https://www.facebook.com/sai.dangeti.1422"><img src="portfolio imgs/facebook logo.png" alt="Fb" width="30px" height="30px"></a>
+                    <a href="https://www.linkedin.com/in/sri-naga-durga-sai-dangeti-2a7919272/"><img src="portfolio imgs/linked in. logo.png" alt="LI" width="30px" height="30px"></a>
+                </div>
+                <br>
+                <div class="home-button">
+                    <a href="#Home">Home ↑</a>
+                </div>
+                <br>
+                <br>
+            </div>
+            </section>
+    </div></section>
+    
+</body>
+</html>
